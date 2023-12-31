@@ -1,0 +1,222 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  clear: both;
+}
+html{
+  font-size:62.5%;
+}
+
+header > nav ul{
+  float:left;
+  width:60%;
+  display:inline;
+  padding:10px 0;
+}
+header nav ul li{
+  display:inline;
+  margin-right:2%;
+  width:100%;
+  padding-top:10px;
+}
+header nav ul li a{
+  text-decoration: none;
+  color:black;
+  font-size:1.5rem;
+  font-weight:600;
+  
+}
+
+.resizeIcon i{
+  font-size:1.5rem;
+  color:black;
+  padding:10px 0;
+  margin-left:8%;
+}
+main{
+  clear: both;
+  float:left;
+  width:100%;
+  height:30vh;
+  padding-top:8vh;
+  background-image:url(/Images/mainBackground.jpg);
+  background-size:cover;
+}
+main > h1{
+  font-size:3rem;
+  padding-bottom:10px;
+}
+main h1,button,i,form{
+  padding-left:5%;
+}
+
+button{
+  background: darkorange;
+  color:white;
+  border:none;
+  display: inline;
+  padding:2px 10px;
+  margin-bottom:4%;
+  font-size:1.5rem;
+  border-radius:4px;
+}
+main i{
+  display:inline;
+  font-size:1.5rem;
+  padding-left:5%;
+  margin-right:1%;
+  color: darkorange;
+}
+main + section{
+  height:20vh;
+  background: lightgray;
+  padding-left:10%;
+  background-image:url(/Images/liatThree.jpg);
+  background-size:cover;
+}
+main + section span{
+  color: darkorange;
+  font-weight:700;
+  display: block;
+  padding-top:5%;
+}
+main + section h2{
+  margin:1% 0 2% 0;
+  font-size:2.5rem;
+}
+main + section p{
+  margin-bottom:3%;
+  font-size:1rem;
+  font-weight:700;
+}
+main + section + section{
+  text-align: center;
+  background: darkgrey;
+}
+main + section + section > span{
+  display:block;
+  padding:3% 0 1% 0;
+  color: darkorange;
+  font-weight:700;
+  font-size:1.5rem;
+}
+main + section + section h3{
+  font-size:3rem;
+  text-transform: capitalize;
+  font-weight:500;
+  margin-bottom:2%;
+}
+main + section + section ul li{
+  display:inline;
+  font-size:1.2rem;
+  font-weight:500;
+  margin-left:3%;
+}
+main + section + section ul li a{
+    border-bottom: 2px solid darkorange;
+    text-decoration: none;
+    color: black;
+    
+}
+main + section + section ul li img{
+  width:20%;
+  height:150px;
+  border-radius:8px;
+  margin-top:4%;
+}
+.hourlyMenu span.tableTime{
+  color: darkorange;
+  font-size:1.5rem;
+  font-weight:700;
+  display:block;
+  padding:4% 0 2% 0;
+}
+.hourlyMenu{
+  text-align:center;
+}
+.hourlyMenu h2{
+  font-size:3rem;
+}
+.hourlyMenu span{
+  display:block;
+  padding-top:2%;
+} 
+.hourlyMenu h2 + i{
+  margin:1% 0 1% -5%;
+  color: darkorange;
+  font-size:2.5rem;
+}
+.phoneRed{
+  color: darkorange;
+  font-weight:800;
+  font-size:1.5rem;
+}
+.dialButton{
+  font-size:2rem;
+  font-weight:800;
+}
+.firstSect{
+  float:left;
+  width:40%;
+  margin-top:3%;
+}
+.secondSect{
+  float:right;
+  width:40%;
+  margin-top:-9%;
+}
+.firstSect span, .secondSect span{
+  font-size:1rem;
+  font-weight:700;
+}
+.firstSect h3 , .secondSect h3{
+  font-size:1.6rem;
+  padding:4% 0;
+}
+section.justImage img{
+  width:80%;
+  display:block;
+  margin:0 auto;
+}
+.lastSection{
+  text-align:center;
+  background: lightgray;
+}
+.lastSection span{
+  display:block;
+  color: darkorange;
+  font-size:1.5rem;
+  font-weight:600;
+  padding:3% 0;
+}
+.lastSection h1{
+  font-size:3.5rem;
+  font-weight:500;
+  margin:2% 0 4% 0;
+}
+.lastSection img{
+  border-radius:50%; 
+  margin:2% auto;
+  display: block;
+}
+.customerName{
+  font-size:2.5rem;
+  font-weight:600;
+ 
+}
+.customerName + span{
+  color:black;
+  font-size:1.5rem;
+  font-weight:400;
+}
+.customerName + span + img{
+  width:20%;
+  display:block;
+  margin-top:-6%;
+}
+.customerName + span + img + p{
+  font-size:1.5rem;
+  line-height:2.5rem;
+  padding: 0 10% 0;
+}
